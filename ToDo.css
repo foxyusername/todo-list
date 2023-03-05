@@ -1,0 +1,71 @@
+body{
+    background-color:blueviolet;
+}
+ #title{
+    position: relative;
+    font-Size:80px;
+    color:rgb(0, 200, 255);
+    right:50px;
+}
+#textbox{
+    font-Size:50px;
+    color:darkblue;
+    font-family:monospace;
+    
+}
+#addbutton{
+    font-Size:30px;
+    color:rgb(18, 59, 209);
+
+}
+
+#listcontainer{
+    position: relative;
+    Font-Size:25px;
+  color:rgb(251, 251, 251);
+  font-family: monospace;
+width:10px;
+right:330px;
+
+}
+span{
+    border:1px solid darkblue;
+    cursor: pointer;
+    color:red;
+    background-color:black;
+}
+p{
+    font-Size:30px;
+   cursor:pointer;
+}
+#ndcontainer{
+position:relative;
+    right:50px;
+    top:100px;
+    display: none;
+background-color :blue;
+  width:400px;
+  height:120px;
+  border-radius: 20px;
+  z-index: 1;
+  
+}
+#text{
+    font-family: monospace;
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+    box-shadow: 10px;
+}
+#button{
+    position:relative;
+width:60px;
+height:40px;
+top:20px;
+cursor: pointer;
+}
+#button:hover{
+background-color:rgb(254, 2, 2);
+width:65px;
+height:45px;
+transition-duration:0.2;
+}
